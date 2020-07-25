@@ -27,6 +27,14 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'aleksandra.grid2012@gmail.com'
+EMAIL_HOST_PASSWORD = 'mstitely2012'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+#
+# 
+# If your form data does not validate, cleaned_data will contain only the valid fields.
 
 # Application definition
 
