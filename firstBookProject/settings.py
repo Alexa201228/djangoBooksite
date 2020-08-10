@@ -35,7 +35,7 @@ EMAIL_USE_TLS = True
 #
 # 
 # If your form data does not validate, cleaned_data will contain only the valid fields.
-
+SITE_ID = 1
 # Application definition
 
 INSTALLED_APPS = [
@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog.apps.BlogConfig',
     'taggit',
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
 ]
 
 MIDDLEWARE = [
