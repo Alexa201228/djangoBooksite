@@ -13,6 +13,9 @@
         </div>
         <div id="sidebar">
             <h2>My Blog</h2>
+            <p>
+                <a href="{% url 'blog:post_feed' %}">Subscribe to my RSS feed</a>
+            </p>
             <p>This is how we do it! I've written {% total_posts %} posts so far.</p>
             <h3>Latest posts</h3>
             {% show_latest_posts 2%}
